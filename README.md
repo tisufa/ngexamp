@@ -3,7 +3,7 @@
 ### How to run application
 
 - run client: `npm start`
-- run server: npm run `start:server`
+- run server: `npm run start:server`
 
 Client build with Angular framework
 
