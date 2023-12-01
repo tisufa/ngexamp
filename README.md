@@ -1,6 +1,6 @@
 # emanager
 
-How to run application
+### How to run application
 
 - run client: `npm start`
 - run server: npm run `start:server`
@@ -8,3 +8,8 @@ How to run application
 Client build with Angular framework
 
 Server build with jsonserver as dummy api.
+
+### Login Information
+
+- username: admin
+- password: password
