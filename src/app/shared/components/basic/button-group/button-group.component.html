@@ -1,0 +1,12 @@
+<div
+  class="d-flex gap-2"
+  [ngClass]="
+    position === 'RIGHT'
+      ? 'justify-content-end'
+      : position === 'CENTER'
+      ? 'justify-content-center'
+      : ''
+  "
+>
+  <ng-content></ng-content>
+</div>

@@ -1,0 +1,11 @@
+<textarea
+  class="form-control"
+  [formControl]="formControl"
+  [placeholder]="placeholder || '' | translate"
+  [ngClass]="[isValid ? 'is-valid' : '', isInvalid ? 'is-invalid' : '']"
+  [rows]="4"
+  [cols]="20"
+></textarea>
+<small class="text-danger" *ngIf="isInvalid">
+  {{ formControl.errors?.message | translate }}
+</small>

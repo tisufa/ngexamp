@@ -1,0 +1,33 @@
+div.header-wrapper,
+div.content-wrapper {
+  padding: 1rem;
+}
+
+div.header-wrapper {
+  header.header {
+    div.main-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      div.header-left {
+        h1.logo {
+          margin: 0;
+          padding: 0;
+          font-size: 2rem;
+          span {
+            background-color: var(--bs-primary);
+            width: 30px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 0.2rem;
+          }
+        }
+      }
+      div.header-right {
+        em {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<div
+  [ngClass]="[
+    isInline ? 'row align-items-baseline' : '',
+    customClass ? customClass : ''
+  ]"
+  class="mb-3"
+>
+  <div
+    [ngClass]="
+      isInline
+        ? 'col-10 col-md-4 col-lg-4 text-start text-md-end mb-2 mb-md-0'
+        : ''
+    "
+  >
+    <label
+      [ngClass]="[required ? 'required' : '', isInline ? '' : 'form-label']"
+      *ngIf="label"
+    >
+      {{ label | translate }}
+    </label>
+  </div>
+  <div [ngClass]="isInline ? 'col-11 col-md-7 col-lg-5' : ''">
+    <ng-content></ng-content>
+  </div>
+</div>

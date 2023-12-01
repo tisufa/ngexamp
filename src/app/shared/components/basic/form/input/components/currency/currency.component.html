@@ -1,0 +1,19 @@
+<div class="input-group">
+  <span class="input-group-text">
+    {{ globalService.constant.CURRENCY_DISPLAY }}
+  </span>
+  <input
+    type="email"
+    class="form-control"
+    [value]="formControl.value || '' | resolveCurrency"
+    (input)="handleInput($event)"
+    (blur)="formControl.markAsTouched()"
+    [placeholder]="placeholder || '' | translate"
+    [ngClass]="[isValid ? 'is-valid' : '', isInvalid ? 'is-invalid' : '']"
+    [disabled]="formControl.disabled"
+  />
+</div>
+
+<small class="text-danger" *ngIf="isInvalid">
+  {{ formControl.errors?.message | translate }}
+</small>

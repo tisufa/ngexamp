@@ -1,0 +1,41 @@
+@use "sass:math";
+
+$primary: #1abc9c;
+$info: #3498db;
+$success: #2ecc71;
+$warning: #f1c40f;
+$danger: #e74c3c;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+);
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$headings-margin-bottom: math.div($spacer, 2);
+$headings-font-weight: 700;
+$headings-line-height: 1.2;
+$headings-color: #25396f;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color: darken($primary, 15);
+$link-decoration: none;
+$link-hover-color: shift-color($link-color, $link-shade-percentage);
+
+// card
+$card-cap-bg: #ffffff;
+$card-border-color: transparent;
+$card-border-radius: 1em;
+$card-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);

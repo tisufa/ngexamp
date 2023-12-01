@@ -1,0 +1,248 @@
+{
+  "app": {
+    "button": {
+      "save": "Simpan",
+      "back": "Kembali",
+      "cancel": "Batal",
+      "ok": "Ok",
+      "delete": "Hapus",
+      "backToHomePage": "Kembali Ke Halaman Utama",
+      "signIn": "Masuk",
+      "leaveThisPage": "Tinggalkan Halaman Ini",
+      "stayOnThisPage": "Tetap Di Halaman Ini",
+      "yes": "Ya"
+    },
+    "auto-complete": {
+      "placeholder": {
+        "search": "Cari..."
+      }
+    },
+    "modal": {
+      "header": {
+        "saveConfirmation": "Konfirmasi Simpan",
+        "updateConfirmation": "Konfirmasi Ubah",
+        "deleteConfirmation": "Konfirmasi Hapus",
+        "leaveConfirmation": "Konfirmasi Keluar"
+      },
+      "message": {
+        "saveConfirmation": "Apakah Anda yakin ingin menyimpan data ini?",
+        "updateConfirmation": "Apakah Anda yakin ingin mengubah data ini?",
+        "deleteConfirmation": "Apakah Anda yakin ingin menghapus data ini?",
+        "leaveConfirmation": "Perubahan Anda belum disimpan! Apakah Anda yakin tetap ingin meninggalkan halaman ini?"
+      }
+    },
+    "table": {
+      "th": {
+        "no": "No",
+        "action": "Aksi"
+      },
+      "text": {
+        "page": "Halaman",
+        "from": "dari"
+      }
+    }
+  },
+  "module": {
+    "admin": {
+      "layout": {
+        "modal": {
+          "confirmation": {
+            "header": {
+              "signOut": "Keluar"
+            },
+            "message": {
+              "signOut": "Apakah Anda yakin ingin keluar dari akun Anda?"
+            }
+          }
+        },
+        "toast": {
+          "success": {
+            "signOut": "Berhasil keluar dari akun Anda"
+          }
+        }
+      },
+      "module": {
+        "employee": {
+          "header": "Karyawan",
+          "button": {
+            "add": "Tambah Karyawan"
+          },
+          "table": {
+            "search": {
+              "placeholder": "Cari karyawan..."
+            },
+            "filter": {
+              "placeholder": {
+                "status": "Pilih status"
+              }
+            },
+            "th": {
+              "username": "Nama Pengguna",
+              "firstName": "Nama Depan",
+              "lastName": "Nama Belakang",
+              "email": "Email",
+              "birthDate": "Tanggal Lahir",
+              "basicSalary": "Gaji Pokok",
+              "status": "Status",
+              "group": "Grup",
+              "description": "Deskripsi"
+            },
+            "text": {
+              "notFound": "Data karyawan tidak ditemukan. Silahkan tambah data baru atau kembali beberapa saat lagi.",
+              "searchNotFound": "Data karyawan yang dicari tidak ditemukan",
+              "filterNotFound": "Data karyawan yang dipilih tidak ditemukan"
+            }
+          },
+          "toast": {
+            "success": {
+              "delete": "Berhasil menghapus data karyawan"
+            },
+            "warning": {
+              "edit": "Berhasil mengubah data karyawan"
+            },
+            "error": {
+              "delete": "Gagal menghapus data karyawan"
+            }
+          },
+          "module": {
+            "add": {
+              "header": "Tambah Karyawan",
+              "form": {
+                "label": {
+                  "username": "Nama Pengguna",
+                  "firstName": "Nama Depan",
+                  "lastName": "Nama Belakang",
+                  "email": "Email",
+                  "birthDate": "Tanggal Lahir",
+                  "basicSalary": "Gaji Pokok",
+                  "status": "Status",
+                  "group": "Grup",
+                  "description": "Deskripsi"
+                },
+                "placeholder": {
+                  "username": "Masukkan nama pengguna",
+                  "firstName": "Masukkan nama depan",
+                  "lastName": "Masukkan nama belakang",
+                  "email": "Masukkan alamat email",
+                  "birthDate": "Pilih tanggal lahir",
+                  "basicSalary": "Masukkan gaji pokok",
+                  "status": "Pilih status",
+                  "group": "Pilih grup",
+                  "description": "Masukkan deskripsi"
+                },
+                "validation": {
+                  "required": {
+                    "username": "Nama pengguna wajib diisi",
+                    "firstName": "Nama depan wajib diisi",
+                    "lastName": "Nama belakang wajib diisi",
+                    "email": "Alamat email wajib diisi",
+                    "birthDate": "Tanggal lahir wajib dipilih",
+                    "basicSalary": "Gaji pokok wajib diisi",
+                    "status": "Status wajib dipilih",
+                    "group": "Grup wajib dipilih",
+                    "description": "Deskripsi wajib diisi"
+                  },
+                  "minLength": {
+                    "username": "Nama pengguna tidak boleh kurang dari 3 karakter"
+                  },
+                  "maxLength": {
+                    "username": "Nama depan tidak boleh lebih dari 16 karakter",
+                    "firstName": "Nama depan tidak boleh lebih dari 16 karakter",
+                    "lastName": "Nama depan tidak boleh lebih dari 32 karakter"
+                  },
+                  "email": "Alamat email tidak valid"
+                }
+              },
+              "toast": {
+                "success": {
+                  "add": "Berhasil menambahkan data karyawan"
+                },
+                "error": {
+                  "add": "Gagal menambahkan data karyawan"
+                }
+              }
+            },
+            "detail": {
+              "header": "Detail Karyawan",
+              "form": {
+                "label": {
+                  "username": "Nama Pengguna",
+                  "firstName": "Nama Depan",
+                  "lastName": "Nama Belakang",
+                  "email": "Email",
+                  "birthDate": "Tanggal Lahir",
+                  "basicSalary": "Gaji Pokok",
+                  "status": "Status",
+                  "group": "Grup",
+                  "description": "Deskripsi"
+                }
+              },
+              "toast": {
+                "error": {
+                  "get": "Gagal mendapatkan detail karyawan"
+                }
+              }
+            }
+          },
+          "option": {
+            "status": {
+              "contract": "Kontrak",
+              "permanent": "Permanen",
+              "internship": "Magang",
+              "outsourcing": "Outsourcing"
+            }
+          }
+        }
+      }
+    },
+    "auth": {
+      "module": {
+        "sign-in": {
+          "header": "Masuk",
+          "form": {
+            "label": {
+              "username": "Nama Pengguna",
+              "password": "Kata Sandi"
+            },
+            "placeholder": {
+              "username": "Masukkan nama pengguna Anda",
+              "password": "Masukkan kata sandi Anda"
+            },
+            "validation": {
+              "required": {
+                "username": "Nama pengguna wajib diisi",
+                "password": "Kata sandi wajib diisi"
+              },
+              "minLength": {
+                "username": "Nama pengguna tidak boleh kurang dari 3 karakter"
+              },
+              "maxLength": {
+                "username": "Nama depan tidak boleh lebih dari 16 karakter"
+              }
+            }
+          },
+          "toast": {
+            "success": {
+              "signIn": "Berhasil masuk ke akun Anda"
+            },
+            "error": {
+              "signIn": "Nama pengguna atau kata sandi salah"
+            }
+          }
+        }
+      }
+    },
+    "error": {
+      "module": {
+        "404": {
+          "header": "404",
+          "description": "Halaman yang Anda tuju tidak ditemukan"
+        },
+        "500": {
+          "header": "500",
+          "description": "Terdapat masalah pada Server. Kembali beberapa saat lagi"
+        }
+      }
+    }
+  }
+}

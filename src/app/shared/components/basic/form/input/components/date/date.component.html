@@ -1,0 +1,12 @@
+<input
+  type="date"
+  class="form-control"
+  [formControl]="formControl"
+  [placeholder]="placeholder || '' | translate"
+  [ngClass]="[isValid ? 'is-valid' : '', isInvalid ? 'is-invalid' : '']"
+  [min]="minDate ? (minDate | date : 'yyyy-MM-dd') : ''"
+  [max]="maxDate ? (maxDate | date : 'yyyy-MM-dd') : ''"
+/>
+<small class="text-danger" *ngIf="isInvalid">
+  {{ formControl.errors?.message | translate }}
+</small>

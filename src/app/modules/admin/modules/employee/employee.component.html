@@ -1,0 +1,40 @@
+<app-card [header]="moduleCode + '.header'">
+  <app-table [model]="tableEmployee" stringUrl="/employees">
+    <ng-template #headerActions>
+      <app-button (onClick)="handleAdd()">
+        {{ moduleCode + ".button.add" | translate }}
+      </app-button>
+    </ng-template>
+
+    <ng-template #headerFilter>
+      <form [formGroup]="formGroup" class="d-flex gap-2">
+        <app-select
+          formControlName="status"
+          [placeholder]="moduleCode + '.table.filter.placeholder.status'"
+          [options]="statuses"
+          optionViewField="translationKey"
+          optionValueField="id"
+          (onChange)="handleChangeFilter()"
+        ></app-select>
+      </form>
+    </ng-template>
+
+    <ng-template #actionButtons let-employee>
+      <app-button-group>
+        <app-button size="SM" (onClick)="handleView(employee)">
+          <em class="fas fa-search"></em>
+        </app-button>
+        <app-button size="SM" variant="WARNING" (onClick)="handleEdit()">
+          <em class="fas fa-pen"></em>
+        </app-button>
+        <app-button
+          size="SM"
+          variant="DANGER"
+          (onClick)="handleDelete(employee)"
+        >
+          <em class="fas fa-trash"></em>
+        </app-button>
+      </app-button-group>
+    </ng-template>
+  </app-table>
+</app-card>

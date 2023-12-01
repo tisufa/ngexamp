@@ -1,0 +1,14 @@
+label {
+  display: inline-flex;
+}
+label.required::after {
+  content: "*";
+  color: red;
+  margin-left: 0.1em;
+}
+
+label:not(.form-label)::before {
+  content: ":";
+  margin-left: 0.5em;
+  order: 1;
+}

@@ -1,0 +1,1605 @@
+{
+  "employee": [],
+  "employees": [
+    {
+      "username": "johndoe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "johndoe@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 100000000,
+      "status": 4,
+      "group": {
+        "id": 1,
+        "name": "Group 1"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701372538451,
+      "id": 1
+    },
+    {
+      "username": "janedoe",
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "email": "janedoe@gmail.com",
+      "birth_date": 1701302400000,
+      "basic_salary": 100000000,
+      "status": 2,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701373676510,
+      "id": 2
+    },
+    {
+      "username": "lionelmessi",
+      "first_name": "Lionel",
+      "last_name": "Messi",
+      "email": "lionelmessi@gmail.com",
+      "birth_date": 1701216000000,
+      "basic_salary": 100000000,
+      "status": 3,
+      "group": {
+        "id": 3,
+        "name": "Group 3"
+      },
+      "description": "Pemain sepak bola",
+      "createdAt": 1701377764898,
+      "id": 3
+    },
+    {
+      "username": "cristianoronaldo",
+      "first_name": "Cristiano",
+      "last_name": "Ronaldo",
+      "email": "cristianoronaldo@gmail.com",
+      "birth_date": 1701302400000,
+      "basic_salary": 100000000,
+      "status": 2,
+      "group": {
+        "id": 10,
+        "name": "Group 10"
+      },
+      "description": "Pemain sepak bola",
+      "createdAt": 1701377980286,
+      "id": 4
+    },
+    {
+      "username": "neymarjr",
+      "first_name": "Neymar",
+      "last_name": "Jr",
+      "email": "neymarjr@gmail.com",
+      "birth_date": 1701216000000,
+      "basic_salary": 20000000,
+      "status": 2,
+      "group": {
+        "id": 6,
+        "name": "Group 6"
+      },
+      "description": "Pemain sepakbola",
+      "createdAt": 1701378016316,
+      "id": 5
+    },
+    {
+      "username": "jamessmith",
+      "first_name": "James",
+      "last_name": "Smith",
+      "email": "jamessmith@gmail.com",
+      "birth_date": 1701302400000,
+      "basic_salary": 283028302,
+      "status": 2,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "Seorang developer",
+      "createdAt": 1701380955436,
+      "id": 6
+    },
+    {
+      "username": "jamesdoe",
+      "first_name": "James",
+      "last_name": "Doe",
+      "email": "jamesdoe@gmail.com",
+      "birth_date": 1701129600000,
+      "basic_salary": 2830280328,
+      "status": 4,
+      "group": {
+        "id": 7,
+        "name": "Group 7"
+      },
+      "description": "Freelancer angular",
+      "createdAt": 1701380993702,
+      "id": 7
+    },
+    {
+      "username": "janesmith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "janesmith@gmail.com",
+      "birth_date": 1701129600000,
+      "basic_salary": 283028322,
+      "status": 3,
+      "group": {
+        "id": 8,
+        "name": "Group 8"
+      },
+      "description": "UI/UX",
+      "createdAt": 1701381038286,
+      "id": 8
+    },
+    {
+      "username": "richarddoe",
+      "first_name": "Richard",
+      "last_name": "Doe",
+      "email": "richarddoe@gmail.com",
+      "birth_date": 1701216000000,
+      "basic_salary": 1010101001,
+      "status": 1,
+      "group": {
+        "id": 9,
+        "name": "Group 9"
+      },
+      "description": "IT magang",
+      "createdAt": 1701381116804,
+      "id": 9
+    },
+    {
+      "username": "joejoe",
+      "first_name": "Joe",
+      "last_name": "Joe",
+      "email": "joejoe@gmail.com",
+      "birth_date": 1701129600000,
+      "basic_salary": 28308232,
+      "status": 4,
+      "group": {
+        "id": 9,
+        "name": "Group 9"
+      },
+      "description": "Deskripsi",
+      "createdAt": 1701383832695,
+      "id": 10
+    },
+    {
+      "username": "bambangpamungkas",
+      "first_name": "Bambang",
+      "last_name": "Pamungkas",
+      "email": "bp@gmail.com",
+      "birth_date": 1701302400000,
+      "basic_salary": 10000000,
+      "status": 3,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "Pemain sepakbola",
+      "createdAt": 1701393440243,
+      "id": 11
+    },
+    {
+      "username": "randysullivan",
+      "first_name": "Randy",
+      "last_name": "Sullivan",
+      "email": "randysullivan@gmail.com",
+      "birth_date": 1701302400000,
+      "basic_salary": 10000000,
+      "status": 2,
+      "group": {
+        "id": 8,
+        "name": "Group 8"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701395570857,
+      "id": 12
+    },
+    {
+      "username": "davidprescott",
+      "first_name": "David",
+      "last_name": "Prescott",
+      "email": "davidprescott@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 682114532,
+      "status": 2,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396069185,
+      "id": 13
+    },
+    {
+      "username": "sebastianharriso",
+      "first_name": "Sebastian",
+      "last_name": "Harrison",
+      "email": "sebastianharrison@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 109554415,
+      "status": 2,
+      "group": {
+        "id": 8,
+        "name": "Group 8"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396093270,
+      "id": 14
+    },
+    {
+      "username": "jeannemiller",
+      "first_name": "Jeanne",
+      "last_name": "Miller",
+      "email": "jeannemiller@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 337097843,
+      "status": 4,
+      "group": {
+        "id": 3,
+        "name": "Group 3"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396105649,
+      "id": 15
+    },
+    {
+      "username": "carlsutton",
+      "first_name": "Carl",
+      "last_name": "Sutton",
+      "email": "carlsutton@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 979040257,
+      "status": 4,
+      "group": {
+        "id": 10,
+        "name": "Group 10"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396119332,
+      "id": 16
+    },
+    {
+      "username": "tayloroliver",
+      "first_name": "Taylor",
+      "last_name": "Oliver",
+      "email": "tayloroliver@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 947165461,
+      "status": 4,
+      "group": {
+        "id": 5,
+        "name": "Group 5"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396128181,
+      "id": 17
+    },
+    {
+      "username": "jenniferprice",
+      "first_name": "Jennifer",
+      "last_name": "Price",
+      "email": "jenniferprice@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 269222736,
+      "status": 3,
+      "group": {
+        "id": 2,
+        "name": "Group 2"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396139050,
+      "id": 18
+    },
+    {
+      "username": "lisascott",
+      "first_name": "Lisa",
+      "last_name": "Scott",
+      "email": "lisascott@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 205885970,
+      "status": 1,
+      "group": {
+        "id": 2,
+        "name": "Group 2"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396147350,
+      "id": 19
+    },
+    {
+      "username": "wilmapeters",
+      "first_name": "Wilma",
+      "last_name": "Peters",
+      "email": "wilmapeters@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 993837572,
+      "status": 3,
+      "group": {
+        "id": 10,
+        "name": "Group 10"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396155466,
+      "id": 20
+    },
+    {
+      "username": "claytonsnyder",
+      "first_name": "Clayton",
+      "last_name": "Snyder",
+      "email": "claytonsnyder@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 698041382,
+      "status": 2,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396164531,
+      "id": 21
+    },
+    {
+      "username": "clairetorres",
+      "first_name": "Claire",
+      "last_name": "Torres",
+      "email": "clairetorres@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 500671097,
+      "status": 1,
+      "group": {
+        "id": 8,
+        "name": "Group 8"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396177715,
+      "id": 22
+    },
+    {
+      "username": "danacole",
+      "first_name": "Dana",
+      "last_name": "Cole",
+      "email": "danacole@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 897816573,
+      "status": 4,
+      "group": {
+        "id": 9,
+        "name": "Group 9"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396185698,
+      "id": 23
+    },
+    {
+      "username": "denisewhite",
+      "first_name": "Denise",
+      "last_name": "White",
+      "email": "denisewhite@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 477660220,
+      "status": 3,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396194566,
+      "id": 24
+    },
+    {
+      "username": "tonylong",
+      "first_name": "Tony",
+      "last_name": "Long",
+      "email": "tonylong@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 435895395,
+      "status": 3,
+      "group": {
+        "id": 7,
+        "name": "Group 7"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396203165,
+      "id": 25
+    },
+    {
+      "username": "marthapalmer",
+      "first_name": "Martha",
+      "last_name": "Palmer",
+      "email": "marthapalmer@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 548856463,
+      "status": 2,
+      "group": {
+        "id": 8,
+        "name": "Group 8"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396222148,
+      "id": 26
+    },
+    {
+      "username": "lucilleward",
+      "first_name": "Lucille",
+      "last_name": "Ward",
+      "email": "lucilleward@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 249105685,
+      "status": 3,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396233264,
+      "id": 27
+    },
+    {
+      "username": "debbieking",
+      "first_name": "Debbie",
+      "last_name": "King",
+      "email": "debbieking@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 392971220,
+      "status": 2,
+      "group": {
+        "id": 7,
+        "name": "Group 7"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396242149,
+      "id": 28
+    },
+    {
+      "username": "brandiemarshall",
+      "first_name": "Brandie",
+      "last_name": "Marshall",
+      "email": "brandiemarshall@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 541058693,
+      "status": 2,
+      "group": {
+        "id": 1,
+        "name": "Group 1"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396249384,
+      "id": 29
+    },
+    {
+      "username": "nataliekennedy",
+      "first_name": "Natalie",
+      "last_name": "Kennedy",
+      "email": "nataliekennedy@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 64981722,
+      "status": 4,
+      "group": {
+        "id": 9,
+        "name": "Group 9"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396257332,
+      "id": 30
+    },
+    {
+      "username": "kathrynlucas",
+      "first_name": "Kathryn",
+      "last_name": "Lucas",
+      "email": "kathrynlucas@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 749670447,
+      "status": 2,
+      "group": {
+        "id": 5,
+        "name": "Group 5"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396264048,
+      "id": 31
+    },
+    {
+      "username": "lancesanchez",
+      "first_name": "Lance",
+      "last_name": "Sanchez",
+      "email": "lancesanchez@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 57365672,
+      "status": 3,
+      "group": {
+        "id": 9,
+        "name": "Group 9"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396271981,
+      "id": 32
+    },
+    {
+      "username": "jimhale",
+      "first_name": "Jim",
+      "last_name": "Hale",
+      "email": "jimhale@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 145620160,
+      "status": 3,
+      "group": {
+        "id": 10,
+        "name": "Group 10"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396308333,
+      "id": 33
+    },
+    {
+      "username": "monicaprice",
+      "first_name": "Monica",
+      "last_name": "Price",
+      "email": "monicaprice@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 754977784,
+      "status": 2,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396315599,
+      "id": 34
+    },
+    {
+      "username": "rosaneal",
+      "first_name": "Rosa",
+      "last_name": "Neal",
+      "email": "rosaneal@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 16461858,
+      "status": 2,
+      "group": {
+        "id": 6,
+        "name": "Group 6"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396323147,
+      "id": 35
+    },
+    {
+      "username": "zackburke",
+      "first_name": "Zack",
+      "last_name": "Burke",
+      "email": "zackburke@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 659243973,
+      "status": 3,
+      "group": {
+        "id": 9,
+        "name": "Group 9"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396329350,
+      "id": 36
+    },
+    {
+      "username": "alvinthomas",
+      "first_name": "Alvin",
+      "last_name": "Thomas",
+      "email": "alvinthomas@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 605349989,
+      "status": 2,
+      "group": {
+        "id": 1,
+        "name": "Group 1"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396335814,
+      "id": 37
+    },
+    {
+      "username": "beckysteeves",
+      "first_name": "Becky",
+      "last_name": "Steeves",
+      "email": "beckysteeves@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 647469471,
+      "status": 2,
+      "group": {
+        "id": 8,
+        "name": "Group 8"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396343246,
+      "id": 38
+    },
+    {
+      "username": "saraprice",
+      "first_name": "Sara",
+      "last_name": "Price",
+      "email": "saraprice@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 178070622,
+      "status": 1,
+      "group": {
+        "id": 8,
+        "name": "Group 8"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396349366,
+      "id": 39
+    },
+    {
+      "username": "mabelpeterson",
+      "first_name": "Mabel",
+      "last_name": "Peterson",
+      "email": "mabelpeterson@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 689729460,
+      "status": 2,
+      "group": {
+        "id": 9,
+        "name": "Group 9"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396357500,
+      "id": 40
+    },
+    {
+      "username": "jacobgomez",
+      "first_name": "Jacob",
+      "last_name": "Gomez",
+      "email": "jacobgomez@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 619390776,
+      "status": 2,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396364882,
+      "id": 41
+    },
+    {
+      "username": "rubenwalters",
+      "first_name": "Ruben",
+      "last_name": "Walters",
+      "email": "rubenwalters@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 46783334,
+      "status": 1,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396373064,
+      "id": 42
+    },
+    {
+      "username": "cameronkim",
+      "first_name": "Cameron",
+      "last_name": "Kim",
+      "email": "cameronkim@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 503821473,
+      "status": 2,
+      "group": {
+        "id": 6,
+        "name": "Group 6"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396379213,
+      "id": 43
+    },
+    {
+      "username": "jessieprice",
+      "first_name": "Jessie",
+      "last_name": "Price",
+      "email": "jessieprice@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 391960824,
+      "status": 4,
+      "group": {
+        "id": 10,
+        "name": "Group 10"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396386164,
+      "id": 44
+    },
+    {
+      "username": "robertpowell",
+      "first_name": "Robert",
+      "last_name": "Powell",
+      "email": "robertpowell@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 377097775,
+      "status": 4,
+      "group": {
+        "id": 8,
+        "name": "Group 8"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396392682,
+      "id": 45
+    },
+    {
+      "username": "andrewmckinney",
+      "first_name": "Andrew",
+      "last_name": "Mckinney",
+      "email": "andrewmckinney@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 137794069,
+      "status": 4,
+      "group": {
+        "id": 3,
+        "name": "Group 3"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396401567,
+      "id": 46
+    },
+    {
+      "username": "jimburns",
+      "first_name": "Jim",
+      "last_name": "Burns",
+      "email": "jimburns@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 574558442,
+      "status": 3,
+      "group": {
+        "id": 5,
+        "name": "Group 5"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396408134,
+      "id": 47
+    },
+    {
+      "username": "claudiabailey",
+      "first_name": "Claudia",
+      "last_name": "Bailey",
+      "email": "claudiabailey@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 876152785,
+      "status": 1,
+      "group": {
+        "id": 9,
+        "name": "Group 9"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396416664,
+      "id": 48
+    },
+    {
+      "username": "darrellevans",
+      "first_name": "Darrell",
+      "last_name": "Evans",
+      "email": "darrellevans@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 170587047,
+      "status": 3,
+      "group": {
+        "id": 7,
+        "name": "Group 7"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396424396,
+      "id": 49
+    },
+    {
+      "username": "zacharyford",
+      "first_name": "Zachary",
+      "last_name": "Ford",
+      "email": "zacharyford@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 540423013,
+      "status": 2,
+      "group": {
+        "id": 8,
+        "name": "Group 8"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396433731,
+      "id": 50
+    },
+    {
+      "username": "leeshelton",
+      "first_name": "Lee",
+      "last_name": "Shelton",
+      "email": "leeshelton@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 658499401,
+      "status": 3,
+      "group": {
+        "id": 6,
+        "name": "Group 6"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396525546,
+      "id": 51
+    },
+    {
+      "username": "dustincole",
+      "first_name": "Dustin",
+      "last_name": "Cole",
+      "email": "dustincole@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 286710259,
+      "status": 3,
+      "group": {
+        "id": 8,
+        "name": "Group 8"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396532279,
+      "id": 52
+    },
+    {
+      "username": "ariannagray",
+      "first_name": "Arianna",
+      "last_name": "Gray",
+      "email": "ariannagray@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 990533658,
+      "status": 2,
+      "group": {
+        "id": 3,
+        "name": "Group 3"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396541312,
+      "id": 53
+    },
+    {
+      "username": "albertturner",
+      "first_name": "Albert",
+      "last_name": "Turner",
+      "email": "albertturner@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 535575758,
+      "status": 2,
+      "group": {
+        "id": 2,
+        "name": "Group 2"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396549516,
+      "id": 54
+    },
+    {
+      "username": "jimgregory",
+      "first_name": "Jim",
+      "last_name": "Gregory",
+      "email": "jimgregory@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 132852709,
+      "status": 3,
+      "group": {
+        "id": 7,
+        "name": "Group 7"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396556463,
+      "id": 55
+    },
+    {
+      "username": "rubydouglas",
+      "first_name": "Ruby",
+      "last_name": "Douglas",
+      "email": "rubydouglas@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 242337365,
+      "status": 1,
+      "group": {
+        "id": 9,
+        "name": "Group 9"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396563463,
+      "id": 56
+    },
+    {
+      "username": "scotttucker",
+      "first_name": "Scott",
+      "last_name": "Tucker",
+      "email": "scotttucker@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 244768938,
+      "status": 2,
+      "group": {
+        "id": 9,
+        "name": "Group 9"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396569564,
+      "id": 57
+    },
+    {
+      "username": "neiljordan",
+      "first_name": "Neil",
+      "last_name": "Jordan",
+      "email": "neiljordan@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 175488188,
+      "status": 3,
+      "group": {
+        "id": 9,
+        "name": "Group 9"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396576031,
+      "id": 58
+    },
+    {
+      "username": "christinaknight",
+      "first_name": "Christina",
+      "last_name": "Knight",
+      "email": "christinaknight@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 411053080,
+      "status": 3,
+      "group": {
+        "id": 9,
+        "name": "Group 9"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396583412,
+      "id": 59
+    },
+    {
+      "username": "veralawrence",
+      "first_name": "Vera",
+      "last_name": "Lawrence",
+      "email": "veralawrence@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 479466211,
+      "status": 2,
+      "group": {
+        "id": 3,
+        "name": "Group 3"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396589982,
+      "id": 60
+    },
+    {
+      "username": "berthacraig",
+      "first_name": "Bertha",
+      "last_name": "Craig",
+      "email": "berthacraig@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 831344791,
+      "status": 3,
+      "group": {
+        "id": 8,
+        "name": "Group 8"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396597247,
+      "id": 61
+    },
+    {
+      "username": "alyssahayes",
+      "first_name": "Alyssa",
+      "last_name": "Hayes",
+      "email": "alyssahayes@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 30110600,
+      "status": 1,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396604366,
+      "id": 62
+    },
+    {
+      "username": "brandonnichols",
+      "first_name": "Brandon",
+      "last_name": "Nichols",
+      "email": "brandonnichols@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 705477232,
+      "status": 2,
+      "group": {
+        "id": 3,
+        "name": "Group 3"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396611063,
+      "id": 63
+    },
+    {
+      "username": "randybarnett",
+      "first_name": "Randy",
+      "last_name": "Barnett",
+      "email": "randybarnett@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 354863901,
+      "status": 1,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396620965,
+      "id": 64
+    },
+    {
+      "username": "carrieelliott",
+      "first_name": "Carrie",
+      "last_name": "Elliott",
+      "email": "carrieelliott@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 552136359,
+      "status": 3,
+      "group": {
+        "id": 8,
+        "name": "Group 8"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396637946,
+      "id": 65
+    },
+    {
+      "username": "evanrobertson",
+      "first_name": "Evan",
+      "last_name": "Robertson",
+      "email": "evanrobertson@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 139114527,
+      "status": 2,
+      "group": {
+        "id": 10,
+        "name": "Group 10"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396643729,
+      "id": 66
+    },
+    {
+      "username": "clairewest",
+      "first_name": "Claire",
+      "last_name": "West",
+      "email": "clairewest@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 228158491,
+      "status": 3,
+      "group": {
+        "id": 3,
+        "name": "Group 3"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396651083,
+      "id": 67
+    },
+    {
+      "username": "eugenescott",
+      "first_name": "Eugene",
+      "last_name": "Scott",
+      "email": "eugenescott@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 72162218,
+      "status": 2,
+      "group": {
+        "id": 10,
+        "name": "Group 10"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396658112,
+      "id": 68
+    },
+    {
+      "username": "marshallwatkins",
+      "first_name": "Marshall",
+      "last_name": "Watkins",
+      "email": "marshallwatkins@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 27658885,
+      "status": 1,
+      "group": {
+        "id": 8,
+        "name": "Group 8"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396667746,
+      "id": 69
+    },
+    {
+      "username": "bellamiles",
+      "first_name": "Bella",
+      "last_name": "Miles",
+      "email": "bellamiles@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 451847991,
+      "status": 3,
+      "group": {
+        "id": 3,
+        "name": "Group 3"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396674564,
+      "id": 70
+    },
+    {
+      "username": "johnturner",
+      "first_name": "John",
+      "last_name": "Turner",
+      "email": "johnturner@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 553570652,
+      "status": 4,
+      "group": {
+        "id": 10,
+        "name": "Group 10"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396680564,
+      "id": 71
+    },
+    {
+      "username": "dustingilbert",
+      "first_name": "Dustin",
+      "last_name": "Gilbert",
+      "email": "dustingilbert@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 917682037,
+      "status": 4,
+      "group": {
+        "id": 6,
+        "name": "Group 6"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396690597,
+      "id": 72
+    },
+    {
+      "username": "taylorsutton",
+      "first_name": "Taylor",
+      "last_name": "Sutton",
+      "email": "taylorsutton@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 908219423,
+      "status": 2,
+      "group": {
+        "id": 5,
+        "name": "Group 5"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396697629,
+      "id": 73
+    },
+    {
+      "username": "gabewallace",
+      "first_name": "Gabe",
+      "last_name": "Wallace",
+      "email": "gabewallace@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 570849250,
+      "status": 1,
+      "group": {
+        "id": 3,
+        "name": "Group 3"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396703829,
+      "id": 74
+    },
+    {
+      "username": "robertathompson",
+      "first_name": "Roberta",
+      "last_name": "Thompson",
+      "email": "robertathompson@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 688417259,
+      "status": 3,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396711049,
+      "id": 75
+    },
+    {
+      "username": "arthurfields",
+      "first_name": "Arthur",
+      "last_name": "Fields",
+      "email": "arthurfields@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 325946989,
+      "status": 4,
+      "group": {
+        "id": 7,
+        "name": "Group 7"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396717712,
+      "id": 76
+    },
+    {
+      "username": "marilynberry",
+      "first_name": "Marilyn",
+      "last_name": "Berry",
+      "email": "marilynberry@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 733369204,
+      "status": 2,
+      "group": {
+        "id": 9,
+        "name": "Group 9"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396724112,
+      "id": 77
+    },
+    {
+      "username": "ninahudson",
+      "first_name": "Nina",
+      "last_name": "Hudson",
+      "email": "ninahudson@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 512806237,
+      "status": 1,
+      "group": {
+        "id": 9,
+        "name": "Group 9"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396730429,
+      "id": 78
+    },
+    {
+      "username": "bryanmorales",
+      "first_name": "Bryan",
+      "last_name": "Morales",
+      "email": "bryanmorales@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 404368247,
+      "status": 2,
+      "group": {
+        "id": 5,
+        "name": "Group 5"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396736712,
+      "id": 79
+    },
+    {
+      "username": "cecilbarrett",
+      "first_name": "Cecil",
+      "last_name": "Barrett",
+      "email": "cecilbarrett@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 570916247,
+      "status": 1,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396742380,
+      "id": 80
+    },
+    {
+      "username": "priscillameyer",
+      "first_name": "Priscilla",
+      "last_name": "Meyer",
+      "email": "priscillameyer@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 366989513,
+      "status": 1,
+      "group": {
+        "id": 6,
+        "name": "Group 6"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396748312,
+      "id": 81
+    },
+    {
+      "username": "beatricejenkins",
+      "first_name": "Beatrice",
+      "last_name": "Jenkins",
+      "email": "beatricejenkins@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 151876244,
+      "status": 3,
+      "group": {
+        "id": 8,
+        "name": "Group 8"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396759063,
+      "id": 82
+    },
+    {
+      "username": "gilbertrobinson",
+      "first_name": "Gilbert",
+      "last_name": "Robinson",
+      "email": "gilbertrobinson@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 671271779,
+      "status": 2,
+      "group": {
+        "id": 2,
+        "name": "Group 2"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396765779,
+      "id": 83
+    },
+    {
+      "username": "victoriacoleman",
+      "first_name": "Victoria",
+      "last_name": "Coleman",
+      "email": "victoriacoleman@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 133257198,
+      "status": 4,
+      "group": {
+        "id": 5,
+        "name": "Group 5"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396774513,
+      "id": 84
+    },
+    {
+      "username": "maxinepowell",
+      "first_name": "Maxine",
+      "last_name": "Powell",
+      "email": "maxinepowell@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 28529728,
+      "status": 3,
+      "group": {
+        "id": 1,
+        "name": "Group 1"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396781281,
+      "id": 85
+    },
+    {
+      "username": "anngomez",
+      "first_name": "Ann",
+      "last_name": "Gomez",
+      "email": "anngomez@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 136319391,
+      "status": 2,
+      "group": {
+        "id": 10,
+        "name": "Group 10"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396788514,
+      "id": 86
+    },
+    {
+      "username": "ericagonzales",
+      "first_name": "Erica",
+      "last_name": "Gonzales",
+      "email": "ericagonzales@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 915688661,
+      "status": 3,
+      "group": {
+        "id": 1,
+        "name": "Group 1"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396795877,
+      "id": 87
+    },
+    {
+      "username": "anneperkins",
+      "first_name": "Anne",
+      "last_name": "Perkins",
+      "email": "anneperkins@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 647840636,
+      "status": 3,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396802246,
+      "id": 88
+    },
+    {
+      "username": "lloydhowell",
+      "first_name": "Lloyd",
+      "last_name": "Howell",
+      "email": "lloydhowell@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 119078701,
+      "status": 3,
+      "group": {
+        "id": 2,
+        "name": "Group 2"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396807912,
+      "id": 89
+    },
+    {
+      "username": "normanjacobs",
+      "first_name": "Norman",
+      "last_name": "Jacobs",
+      "email": "normanjacobs@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 166621290,
+      "status": 3,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396814197,
+      "id": 90
+    },
+    {
+      "username": "carrieortiz",
+      "first_name": "Carrie",
+      "last_name": "Ortiz",
+      "email": "carrieortiz@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 361976935,
+      "status": 3,
+      "group": {
+        "id": 5,
+        "name": "Group 5"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396821764,
+      "id": 91
+    },
+    {
+      "username": "jacquelinehamilt",
+      "first_name": "Jacqueline",
+      "last_name": "Hamilton",
+      "email": "jacquelinehamilton@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 830688535,
+      "status": 2,
+      "group": {
+        "id": 8,
+        "name": "Group 8"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396833178,
+      "id": 92
+    },
+    {
+      "username": "neilbrown",
+      "first_name": "Neil",
+      "last_name": "Brown",
+      "email": "neilbrown@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 85411429,
+      "status": 1,
+      "group": {
+        "id": 8,
+        "name": "Group 8"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396840312,
+      "id": 93
+    },
+    {
+      "username": "cindyortiz",
+      "first_name": "Cindy",
+      "last_name": "Ortiz",
+      "email": "cindyortiz@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 593838217,
+      "status": 3,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396848680,
+      "id": 94
+    },
+    {
+      "username": "sergiobrewer",
+      "first_name": "Sergio",
+      "last_name": "Brewer",
+      "email": "sergiobrewer@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 5333993,
+      "status": 2,
+      "group": {
+        "id": 6,
+        "name": "Group 6"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396855163,
+      "id": 95
+    },
+    {
+      "username": "jarrichardson",
+      "first_name": "Jar",
+      "last_name": "Richardson",
+      "email": "jarrichardson@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 891719903,
+      "status": 2,
+      "group": {
+        "id": 1,
+        "name": "Group 1"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396861095,
+      "id": 96
+    },
+    {
+      "username": "louisegonzales",
+      "first_name": "Louise",
+      "last_name": "Gonzales",
+      "email": "louisegonzales@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 37299779,
+      "status": 4,
+      "group": {
+        "id": 10,
+        "name": "Group 10"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396867544,
+      "id": 97
+    },
+    {
+      "username": "amandahowell",
+      "first_name": "Amanda",
+      "last_name": "Howell",
+      "email": "amandahowell@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 130029111,
+      "status": 4,
+      "group": {
+        "id": 7,
+        "name": "Group 7"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396873811,
+      "id": 98
+    },
+    {
+      "username": "nicholaslittle",
+      "first_name": "Nicholas",
+      "last_name": "Little",
+      "email": "nicholaslittle@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 181682150,
+      "status": 2,
+      "group": {
+        "id": 4,
+        "name": "Group 4"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396880361,
+      "id": 99
+    },
+    {
+      "username": "liamlynch",
+      "first_name": "Liam",
+      "last_name": "Lynch",
+      "email": "liamlynch@gmail.com",
+      "birth_date": 1701388800000,
+      "basic_salary": 842877958,
+      "status": 2,
+      "group": {
+        "id": 9,
+        "name": "Group 9"
+      },
+      "description": "This is an example description",
+      "createdAt": 1701396890129,
+      "id": 100
+    }
+  ]
+}

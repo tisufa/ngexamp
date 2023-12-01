@@ -1,0 +1,14 @@
+<button
+  class="btn"
+  (click)="handleClick($event)"
+  [ngClass]="[
+    isOutline ? '' : 'btn-' + (variant || 'primary' | lowercase),
+    customClass || '',
+    size ? 'btn-' + (size | lowercase) : '',
+    isOutline ? 'btn-outline-' + (variant || 'primary' | lowercase) : ''
+  ]"
+  [disabled]="disabled"
+  [type]="type || 'button'"
+>
+  <ng-content></ng-content>
+</button>

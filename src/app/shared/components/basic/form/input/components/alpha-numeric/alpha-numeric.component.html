@@ -1,0 +1,15 @@
+<input
+  type="text"
+  class="form-control"
+  [value]="formControl.value"
+  (input)="handleInput($event)"
+  [placeholder]="placeholder || '' | translate"
+  (blur)="formControl.markAsTouched()"
+  [ngClass]="[isValid ? 'is-valid' : '', isInvalid ? 'is-invalid' : '']"
+  [disabled]="formControl.disabled || formGroup.disabled"
+  [attr.maxlength]="maxLength"
+/>
+
+<small class="text-danger" *ngIf="isInvalid">
+  {{ formControl.errors?.message | translate }}
+</small>

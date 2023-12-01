@@ -1,0 +1,12 @@
+<input
+  [type]="type || 'text'"
+  class="form-control"
+  [formControl]="formControl"
+  [placeholder]="placeholder || '' | translate"
+  [ngClass]="[isValid ? 'is-valid' : '', isInvalid ? 'is-invalid' : '']"
+  [maxlength]="maxLength"
+  (change)="onChange.emit(formControl.value)"
+/>
+<small class="text-danger" *ngIf="isInvalid">
+  {{ formControl.errors?.message | translate }}
+</small>

@@ -1,0 +1,31 @@
+<app-card [header]="moduleCode + '.header'">
+  <form [formGroup]="formGroup">
+    <app-form-group
+      [label]="moduleCode + '.form.label.username'"
+      [required]="true"
+      [isInline]="false"
+    >
+      <app-input
+        type="alphanumeric"
+        formControlName="username"
+        [placeholder]="moduleCode + '.form.placeholder.username'"
+      ></app-input>
+    </app-form-group>
+
+    <app-form-group
+      [label]="moduleCode + '.form.label.password'"
+      [required]="true"
+      [isInline]="false"
+    >
+      <app-input
+        type="password"
+        formControlName="password"
+        [placeholder]="moduleCode + '.form.placeholder.password'"
+      ></app-input>
+    </app-form-group>
+
+    <app-button customClass="w-100" (onClick)="handleSignIn()">
+      {{ "app.button.signIn" | translate }}
+    </app-button>
+  </form>
+</app-card>

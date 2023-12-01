@@ -1,0 +1,183 @@
+<div class="table-wrapper">
+  <div class="table-header">
+    <div class="d-flex justify-content-end mb-3" *ngIf="headerActionsTmpl">
+      <ng-container *ngTemplateOutlet="headerActionsTmpl"></ng-container>
+    </div>
+
+    <div
+      class="d-flex justify-content-end gap-2"
+      *ngIf="
+        !isLoading &&
+        (records.length > 0 ||
+          (records.length === 0 && (model.keywords || model.customData)))
+      "
+    >
+      <ng-container *ngTemplateOutlet="headerFilterTmpl"></ng-container>
+      <div class="input-group">
+        <span class="input-group-text">
+          <em class="fas fa-search"></em>
+        </span>
+        <input
+          type="text"
+          class="form-control"
+          [placeholder]="
+            model.moduleCode + '.' + moduleCode + '.search.placeholder'
+              | translate
+          "
+          [formControl]="keywords"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="table-body">
+    <p
+      class="mb-0 py-5 text-center text-secondary"
+      *ngIf="
+        !isLoading &&
+        records.length === 0 &&
+        !model.keywords && !model.customData
+      "
+    >
+      {{ model.moduleCode + "." + moduleCode + ".text.notFound" | translate }}}
+    </p>
+
+    <div
+      class="table-responsive"
+      *ngIf="
+        !isLoading &&
+        (records.length > 0 ||
+          (records.length === 0 && (model.keywords || model.customData)))
+      "
+    >
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="order">
+              {{ "app." + moduleCode + ".th.no" | translate }}
+            </th>
+            <th
+              *ngFor="let column of model.columns"
+              (click)="handleSort(column)"
+            >
+              <div class="th-content">
+                <span class="text">
+                  {{
+                    model.moduleCode + "." + moduleCode + ".th." + column.header
+                      | translate
+                  }}
+                </span>
+                <span class="icon">
+                  <em
+                    class="fas fa-sort"
+                    [ngClass]="
+                      sortField === column.field
+                        ? 'sort-' + (sortOrder | lowercase)
+                        : ''
+                    "
+                  ></em>
+                </span>
+              </div>
+            </th>
+            <th *ngIf="actionButtonsTmpl">
+              {{ "app." + moduleCode + ".th.action" | translate }}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let record of records; let i = index">
+            <td class="order">{{ (currentPage - 1) * perPage + i + 1 }}</td>
+            <td *ngFor="let column of model.columns">
+              {{ record | resolveColumnValue : column }}
+            </td>
+            <td *ngIf="actionButtonsTmpl">
+              <ng-container
+                *ngTemplateOutlet="
+                  actionButtonsTmpl;
+                  context: {
+                    $implicit: record,
+                    index: (currentPage - 1) * perPage + i
+                  }
+                "
+              ></ng-container>
+            </td>
+          </tr>
+
+          <tr *ngIf="records.length === 0">
+            <td colspan="9999">
+              <div class="text-center py-5 text-secondary">
+                <ng-container *ngIf="model.keywords && !model.customData">
+                  <p>
+                    {{
+                      model.moduleCode +
+                        "." +
+                        moduleCode +
+                        ".text.searchNotFound" | translate
+                    }}
+                  </p>
+                </ng-container>
+
+                <ng-container *ngIf="model.customData">
+                  <p>
+                    {{
+                      model.moduleCode +
+                        "." +
+                        moduleCode +
+                        ".text.filterNotFound" | translate
+                    }}
+                  </p>
+                </ng-container>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div
+    class="table-footer"
+    *ngIf="
+      !isLoading &&
+      (records.length > 0 ||
+        (records.length === 0 && (model.keywords || model.customData)))
+    "
+  >
+    <div class="per-page">
+      <select
+        class="form-select form-select-sm"
+        (change)="handleChangePerPage($event)"
+      >
+        <option
+          [value]="paginationPerPage"
+          *ngFor="let paginationPerPage of perPages"
+          [selected]="paginationPerPage === perPage"
+        >
+          {{ paginationPerPage }}
+        </option>
+      </select>
+    </div>
+    <div class="d-flex justify-content-end gap-2">
+      <p class="mb-0">
+        {{ "app." + moduleCode + ".text.page" | translate }}
+        {{ currentPage }}
+        {{ "app." + moduleCode + ".text.from" | translate }}
+        {{ lastPage }}
+      </p>
+      <app-button
+        size="SM"
+        variant="LIGHT"
+        (onClick)="handleBackPage()"
+        [disabled]="currentPage === 1 || isProcessing"
+      >
+        <em class="fas fa-chevron-left"></em>
+      </app-button>
+      <app-button
+        size="SM"
+        variant="LIGHT"
+        (onClick)="handleNextPage()"
+        [disabled]="currentPage === lastPage || isProcessing"
+      >
+        <em class="fas fa-chevron-right"></em>
+      </app-button>
+    </div>
+  </div>
+</div>

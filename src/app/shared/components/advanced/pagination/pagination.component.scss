@@ -1,0 +1,36 @@
+div.pagination-wrapper {
+  ul.pagination-list {
+    margin: 0;
+    padding: 0;
+    li.pagination-item {
+      list-style: none;
+      display: inline-block;
+      span.text {
+        margin-left: 0.4em;
+      }
+      a.pagination-link {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin-left: 0.4em;
+        transition: all 0.4 ease-in-out;
+        color: initial;
+        &:hover,
+        &.active {
+          background-color: var(--bs-primary);
+          color: #fff;
+        }
+        &.disabled {
+          cursor: default;
+          color: var(--bs-gray-500);
+          &:hover {
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}

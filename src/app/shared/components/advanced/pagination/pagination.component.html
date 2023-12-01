@@ -1,0 +1,62 @@
+<div class="pagination-wrapper">
+  <ul class="pagination-list">
+    <li class="pagination-item button">
+      <a
+        href="#"
+        class="pagination-link"
+        (click)="handleBack($event)"
+        [ngClass]="pagination.currentPage === 1 ? 'disabled' : ''"
+      >
+        <em class="fa fa-chevron-left"></em>
+      </a>
+    </li>
+    <li class="pagination-item order" *ngIf="pagination.currentPage > 3">
+      <a href="#" class="pagination-link" (click)="handleChangePage($event, 1)">
+        1
+      </a>
+    </li>
+    <li class="pagination-item" *ngIf="pagination.startPage > 2">
+      <span class="text">...</span>
+    </li>
+    <li class="pagination-item order" *ngFor="let page of pagination.list">
+      <a
+        href="#"
+        class="pagination-link"
+        [ngClass]="page === pagination.currentPage ? 'active' : ''"
+        (click)="handleChangePage($event, page)"
+      >
+        {{ page }}
+      </a>
+    </li>
+    <li
+      class="pagination-item"
+      *ngIf="pagination.currentPage < pagination.lastPage - 3"
+    >
+      <span class="text">...</span>
+    </li>
+    <li
+      class="pagination-item order"
+      *ngIf="pagination.currentPage < pagination.lastPage - 2"
+    >
+      <a
+        href="#"
+        class="pagination-link"
+        (click)="handleChangePage($event, pagination.lastPage)"
+      >
+        {{ pagination.lastPage }}
+      </a>
+    </li>
+    <li class="pagination-item button">
+      <a
+        href="#"
+        class="pagination-link"
+        (click)="handleNext($event)"
+        [ngClass]="
+          pagination.currentPage === pagination.lastPage ? 'disabled' : ''
+        "
+      >
+        <em class="fa fa-chevron-right"></em>
+      </a>
+    </li>
+  </ul>
+</div>

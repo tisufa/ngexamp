@@ -1,0 +1,18 @@
+<div class="modal-loader" *ngIf="isProcessing"></div>
+<div class="modal-bg"></div>
+<div class="modal-header" *ngIf="header">
+  <h4 class="modal-title" id="modal-basic-title">{{ header | translate }}</h4>
+  <button
+    type="button"
+    class="btn-close"
+    aria-label="Close"
+    (click)="ngbActiveModal.dismiss()"
+    *ngIf="isShowCloseButton"
+  ></button>
+</div>
+<div class="modal-body">
+  <ng-content></ng-content>
+</div>
+<div class="modal-footer" *ngIf="footerTemplate">
+  <ng-container *ngTemplateOutlet="footerTemplate"></ng-container>
+</div>

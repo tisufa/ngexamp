@@ -1,0 +1,43 @@
+<app-card [header]="moduleCode + '.header'">
+  <app-form-group [label]="moduleCode + '.form.label.username'">
+    {{ employee.username }}
+  </app-form-group>
+
+  <app-form-group [label]="moduleCode + '.form.label.firstName'">
+    {{ employee.firstName }}
+  </app-form-group>
+
+  <app-form-group [label]="moduleCode + '.form.label.lastName'">
+    {{ employee.lastName }}
+  </app-form-group>
+
+  <app-form-group [label]="moduleCode + '.form.label.email'">
+    {{ employee.email }}
+  </app-form-group>
+
+  <app-form-group [label]="moduleCode + '.form.label.birthDate'">
+    {{ employee.birthDate | date : globalService.constant.SHORT_DATE_FORMAT }}
+  </app-form-group>
+
+  <app-form-group [label]="moduleCode + '.form.label.basicSalary'">
+    {{ employee.basicSalary | customCurrency }}
+  </app-form-group>
+
+  <app-form-group [label]="moduleCode + '.form.label.status'">
+    {{ employee.status.translationKey | translate }}
+  </app-form-group>
+
+  <app-form-group [label]="moduleCode + '.form.label.group'">
+    {{ employee.group.name }}
+  </app-form-group>
+
+  <app-form-group [label]="moduleCode + '.form.label.description'">
+    {{ employee.description }}
+  </app-form-group>
+
+  <app-button-group position="RIGHT">
+    <app-button (onClick)="handleOk()">
+      {{ "app.button.ok" | translate }}
+    </app-button>
+  </app-button-group>
+</app-card>

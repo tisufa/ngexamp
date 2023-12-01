@@ -1,0 +1,86 @@
+<app-card [header]="moduleCode + '.header'">
+  <form [formGroup]="formGroup">
+    <app-form-group [label]="moduleCode + '.form.label.username'">
+      <app-input
+        type="alphanumeric"
+        formControlName="username"
+        [placeholder]="moduleCode + '.form.placeholder.username'"
+        [maxLength]="16"
+        format="LOWERCASE"
+      ></app-input>
+    </app-form-group>
+
+    <app-form-group [label]="moduleCode + '.form.label.firstName'">
+      <app-input
+        formControlName="firstName"
+        [placeholder]="moduleCode + '.form.placeholder.firstName'"
+      ></app-input>
+    </app-form-group>
+
+    <app-form-group [label]="moduleCode + '.form.label.lastName'">
+      <app-input
+        formControlName="lastName"
+        [placeholder]="moduleCode + '.form.placeholder.lastName'"
+      ></app-input>
+    </app-form-group>
+
+    <app-form-group [label]="moduleCode + '.form.label.email'">
+      <app-input
+        type="email"
+        formControlName="email"
+        [placeholder]="moduleCode + '.form.placeholder.email'"
+      ></app-input>
+    </app-form-group>
+
+    <app-form-group [label]="moduleCode + '.form.label.birthDate'">
+      <app-input
+        type="date"
+        formControlName="birthDate"
+        [placeholder]="moduleCode + '.form.placeholder.birthDate'"
+        [maxDate]="currentDate"
+      ></app-input>
+    </app-form-group>
+
+    <app-form-group [label]="moduleCode + '.form.label.basicSalary'">
+      <app-input
+        type="currency"
+        formControlName="basicSalary"
+        [placeholder]="moduleCode + '.form.placeholder.basicSalary'"
+      ></app-input>
+    </app-form-group>
+
+    <app-form-group [label]="moduleCode + '.form.label.status'">
+      <app-select
+        formControlName="status"
+        [placeholder]="moduleCode + '.form.placeholder.status'"
+        [options]="statuses"
+        optionViewField="translationKey"
+      ></app-select>
+    </app-form-group>
+
+    <app-form-group [label]="moduleCode + '.form.label.group'">
+      <app-auto-complete
+        formControlName="group"
+        [placeholder]="moduleCode + '.form.placeholder.group'"
+        [options]="groups"
+        optionViewField="name"
+      ></app-auto-complete>
+    </app-form-group>
+
+    <app-form-group [label]="moduleCode + '.form.label.description'">
+      <app-textarea
+        formControlName="description"
+        [placeholder]="moduleCode + '.form.placeholder.description'"
+      ></app-textarea>
+    </app-form-group>
+
+    <app-button-group position="RIGHT">
+      <app-button variant="SECONDARY" (onClick)="handleCancel()">
+        {{ "app.button.cancel" | translate }}
+      </app-button>
+      <app-button (onClick)="handleSave()">
+        {{ "app.button.save" | translate }}
+      </app-button>
+    </app-button-group>
+  </form>
+</app-card>

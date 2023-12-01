@@ -1,0 +1,13 @@
+<app-popup [isShowCloseButton]="false">
+  <h4 class="mb-3">{{ header | translate }}</h4>
+  <p class="mb-0" [innerHTML]="message | translate" *ngIf="message"></p>
+  <ng-content></ng-content>
+  <div class="d-flex justify-content-end gap-2 mt-4">
+    <app-button variant="SECONDARY" (onClick)="onChange.emit(false)">
+      {{ negativeButton || "app.button.cancel" | translate }}</app-button
+    >
+    <app-button [variant]="variant" (onClick)="onChange.emit(true)">
+      {{ positiveButton || "app.button.save" | translate }}
+    </app-button>
+  </div>
+</app-popup>

@@ -1,0 +1,9 @@
+<div class="app-toast" [ngClass]="'app-toast-' + (variant || '' | lowercase)">
+  <span class="toast-bg"></span>
+  <span class="toast-icon" *ngIf="icon">
+    <em [ngClass]="icon"></em>
+  </span>
+  <span class="toast-text">
+    {{ message | translate }}
+  </span>
+</div>

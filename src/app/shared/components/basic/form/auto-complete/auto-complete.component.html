@@ -1,0 +1,65 @@
+<app-dropdown>
+  <div
+    class="form-control bg-"
+    [ngClass]="[
+      isValid ? 'is-valid' : '',
+      isInvalid ? 'is-invalid' : '',
+      formControl.disabled ? 'bg-secondary' : ''
+    ]"
+  >
+    <ng-container *ngIf="formControl.value">
+      <ng-container *ngIf="itemTemplate">
+        <ng-container
+          *ngTemplateOutlet="
+            itemTemplate;
+            context: { $implicit: formControl.value }
+          "
+        ></ng-container>
+      </ng-container>
+
+      <ng-container *ngIf="!itemTemplate">
+        <span class="text">
+          {{
+            formControl.value | resolveFieldData : optionViewField | translate
+          }}
+        </span>
+      </ng-container>
+    </ng-container>
+    <ng-container *ngIf="!formControl.value">
+      {{ placeholder | translate }}
+    </ng-container>
+  </div>
+  <ng-template #dropDown let-activeDropDown>
+    <div class="auto-complete-dropdown">
+      <div class="drop-down-header">
+        <input
+          class="form-control"
+          [placeholder]="moduleCode + '.placeholder.search' | translate"
+          (input)="handleInputSearch($event)"
+        />
+      </div>
+      <div class="drop-down-body">
+        <ul class="list">
+          <li class="item" *ngFor="let item of model.list">
+            <a
+              href="#"
+              class="item-link"
+              (click)="activeDropDown.close(); handleClickItem($event, item)"
+            >
+              <ng-container *ngIf="itemTemplate">
+                <ng-container
+                  *ngTemplateOutlet="itemTemplate; context: { $implicit: item }"
+                >
+                </ng-container>
+              </ng-container>
+
+              <ng-container *ngIf="!itemTemplate">
+                {{ item | resolveFieldData : optionViewField | translate }}
+              </ng-container>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </ng-template>
+</app-dropdown>
